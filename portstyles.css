@@ -1,0 +1,404 @@
+.intro {
+    background-image: url(Sithika\ Himandith.jpeg);
+    background-size: cover;
+    background-position: center;
+
+  }
+  html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+body{
+    
+    color: aliceblue;
+   background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 50vh;
+    background-image: url(back.jpg);
+    background-size:cover ;
+    background-position: center;
+    
+}
+.header-text{
+    color: rgb(58, 221, 232);
+    font-weight: 450;
+}
+ .name{
+    background: -webkit-linear-gradient(rgb(0, 251, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    }
+
+.header-text p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    font-weight: 500;
+    
+    
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height:3px ;
+    background: rgb(20, 50, 70);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+.about{
+    padding: 80px 0;
+    color: rgb(10, 10, 10);
+    background-image: linear-gradient(#2fa8a3,rgb(79, 79, 79),rgb(0, 0, 0));
+    
+}
+.about p{
+    color: aliceblue;
+   
+    font-size: 30px;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    flex-basis: 50%;
+}
+
+.col-1 img{ 
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.col-2{
+    flex-basis: 45%;
+}
+.col-2 h1{
+    text-align: center;
+    color: rgb(238, 238, 244);
+}
+.col-2 p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.skills{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.skills h1{
+   
+    background: -webkit-linear-gradient(rgb(0, 251, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+
+}
+
+.skills_list{
+    display: flex;
+   flex-basis: 100%;
+   margin-left: 170px;
+   margin-top: 45px;
+ 
+  
+}
+
+.skills_list div4{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #000000;
+   
+}
+.skills_list img{
+    width: 55px;
+    height: 55px;
+  
+
+}
+
+.articles{
+    padding: 30px 0;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    padding-bottom:25px ;
+    
+}
+
+.articles h1{
+    background: -webkit-linear-gradient(rgb(0, 251, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+
+}
+.articles-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+
+
+.articles-list div{
+    background-color: #00c3ff;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition:background 0.5s, transform 0.5s;
+    
+}
+.articles-list  h2{
+    font-size: 30px;
+    font-weight: 550;
+    color: rgb(6, 16, 6);
+}
+.articles-list  p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(12, 8, 8);
+}
+.articles-list  a{
+    text-decoration: none;
+    color: rgb(22, 22, 106);
+    font-size: 13px;
+    margin: top 100px;
+    display: inline-block;
+    text-align: start;
+
+}
+.articles-list div1{
+    display: flex;
+}
+
+.articles-list div2 img{
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+    
+}
+
+.articles-list div3 img{
+    width: 100%;
+    padding-right: 25px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.articles-list div:hover{
+    background-color:#68f6cd;
+    transform: translateY(-12px);
+}
+
+.contact{
+    padding-top: 25px;
+}
+
+.cont-left{
+    flex-basis: 35%;
+}
+
+.cont-right{
+    flex-basis: 60%;
+}
+
+.cont-left h1{
+    background: -webkit-linear-gradient(rgb(0, 251, 255), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+
+
+}
+
+.cont-left p{
+    margin-top: 60px;
+    color: aliceblue;
+}
+.social-apps{
+    margin-top: 30px;
+
+}
+.social-apps a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(233, 232, 240);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-apps a:hover{
+    color: rgb(86, 7, 246);
+    transform: translateY(-5px);
+}
+.cont-right form{
+    width: 100%;
+    
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color:rgb(87, 83, 83);
+    padding: 10px;
+    margin: 10px 0;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 5px;
+}
+form .btn{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    cursor:pointer;
+    background-color: rgb(231, 15, 15);
+    border-radius: 10px;
+}
+.copyr{
+    width: 100%;
+    text-align: center;
+   
+    background-color: rgb(71, 141, 215);
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#message{
+    color: white;
+    margin-top: -40px;
+    display: block;
+}
+
+nav .fas{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(backp.jpg);
+        text-align: center;
+       
+    }
+    .header-text h1{
+        text-align: left;
+        font-size: 20px;
+        color: rgb(0, 234, 255);
+        margin-top: 20px;
+        outline-color: #000000;
+    }
+    .header-text p{
+        font-size: 25px;
+    }
+   
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        color: #000000;
+        outline-color: aliceblue;
+    }
+    nav ul{
+        background: #00fce3;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+}
+nav ul .fas{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+
+.skills{
+  
+  
+   
+}
+
+.skills_list{
+    flex-basis: 100%;
+
+}
+
+.skills_list div4{
+    height: 30px;
+    width: 30px;
+}
+
+.col-1{
+    flex-basis: 100%;
+}
+ .col-2{
+    flex-basis: 100%;
+    font-size: 20px;
+ 
+ }
+
+.cont-left, .cont-right{
+     flex-basis: 100% ;
+}
+}
